@@ -1,0 +1,23 @@
+{
+  
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "A library to help you design your react-native app by platform",
+  "keywords": [
+    "react-native",
+    "ios",
+    "iphone-x",
+    "iphoneX",
+    "stylesheet",
+    "android",
+    "platform helper"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "react-native-platform-helper",
+  "peerDependencies": {
+    "react-native": ">=0.42.0"
+  },
+  "types": "index.d.ts",
+  "version": "1.2.1"
+}
