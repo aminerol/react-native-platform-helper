@@ -1,5 +1,4 @@
 {
-  
   "bundleDependencies": false,
   "deprecated": false,
   "description": "A library to help you design your react-native app by platform",
@@ -19,5 +18,17 @@
     "react-native": ">=0.42.0"
   },
   "types": "index.d.ts",
-  "version": "1.2.1"
+  "version": "1.0.0",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aminerol/react-native-platform-helper.git"
+  },
+  "author": "Amine Bl <zazamine8@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/aminerol/react-native-platform-helper/issues"
+  },
+  "homepage": "https://github.com/aminerol/react-native-platform-helper#readme"
 }
