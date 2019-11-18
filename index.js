@@ -49,7 +49,7 @@ export function getNavBarHeight() {
 export function getStatusBarHeight(safe) {
     return Platform.select({
         ios: ifIphoneX(safe ? 44 : 30, 20),
-        android: StatusBar.currentHeight,
+        android: global.Expo ? StatusBar.currentHeight : 0,
         default: 0
     });
 }
